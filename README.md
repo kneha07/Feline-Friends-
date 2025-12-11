@@ -123,7 +123,20 @@ Form data is processed via POST request and displayed on a results page.
 
 ## 📸 Screenshots
 
-*(Add screenshots of your website here)*
+### Homepage - Popular Cat Breeds
+![Homepage with Popular Cat Breeds section](screenshots/homepage.png)
+
+### Essential Cat Care Guide
+![Cat Care Guide with four informational cards](screenshots/care-guide.png)
+
+### Coming Soon Features
+![Coming Soon section](screenshots/coming-soon.png)
+
+### Registration Form
+![User registration form with dropdown menu](screenshots/register-form.png)
+
+### External Links Menu
+![Dropdown navigation menu showing external resources](screenshots/external-links.png)
 
 ## 🔮 Future Enhancements
 
