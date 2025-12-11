@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register for Cat Care Updates</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <header class="site-header">
+            <div class="header-container">
+                <a href="index.html" class="logo-link">
+                    <img src="images/cat-logo.png" alt="Brown, white and black cat portrait with alert expression"
+                        class="logo">
+                </a>
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item dropdown">
+                            <button class="nav-link">Menu</button>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="register.html">Register</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button class="nav-link">External Links</button>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://en.wikipedia.org/wiki/Cat" target="_blank" rel="noopener">Cat
+                                        Wikipedia</a></li>
+                                <li><a href="https://www.aspca.org/pet-care/cat-care" target="_blank" rel="noopener">ASPCA
+                                        Cat Care</a></li>
+                                <li><a href="https://www.nationalgeographic.com/animals/mammals/facts/domestic-cat"
+                                        target="_blank" rel="noopener">National Geographic Cats</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <h1>Register for Cat Care Updates</h1>
+            <div class="form-container">
+                <p class="form-intro">Join our community of cat lovers and receive helpful tips, breed information, care
+                    guides, and the latest news about feline health and wellness delivered directly to your inbox.</p>
+                <form action="/register" method="POST" class="registration-form">
+                    <div class="form-field">
+                        <label for="full-name">Full Name <span class="required-indicator">(required)</span></label>
+                        <input type="text" id="full-name" name="full-name" required aria-required="true" autocomplete="name">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="email">Email Address <span class="required-indicator">(required)</span></label>
+                        <input type="email" id="email" name="email" required aria-required="true" autocomplete="email">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="cat-breed">What type of cat do you have?</label>
+                        <select id="cat-breed" name="cat-breed">
+                            <option value="">-- Please select --</option>
+                            <option value="siamese">Siamese</option>
+                            <option value="maine-coon">Maine Coon</option>
+                            <option value="persian">Persian</option>
+                            <option value="bengal">Bengal</option>
+                            <option value="ragdoll">Ragdoll</option>
+                            <option value="british-shorthair">British Shorthair</option>
+                            <option value="sphynx">Sphynx</option>
+                            <option value="mixed">Mixed Breed</option>
+                            <option value="other">Other</option>
+                            <option value="no-cat">I don't have a cat yet</option>
+                        </select>
+                    </div>
+
+                    <fieldset class="form-field checkbox-field">
+                        <legend>Communication Preferences</legend>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                            <label for="newsletter">Send me weekly cat care newsletters with tips and advice</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="promotions" name="promotions" value="yes">
+                            <label for="promotions">Notify me about special offers, events, and product
+                                recommendations</label>
+                        </div>
+                    </fieldset>
+
+                    <div class="form-actions">
+                        <button type="submit" class="submit-button">Register Now</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-container">
+                <p>&copy; 2025 Feline Friends. All rights reserved.</p>
+                <nav class="footer-nav">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="contact.html">Contact Us</a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+
+</html>
